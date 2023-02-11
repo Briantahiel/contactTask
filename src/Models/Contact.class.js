@@ -4,12 +4,12 @@ export class Contact{
     name = '';
     lastname = '';
     email = '';
-    conected = false
+    connected = false
 
-    constructor(name, lastname, email, conected){
+    constructor(name, lastname, email, connected){
         this.name = name;
         this.lastname = lastname;
         this.email = email;
-        this.conected = conected;
+        this.connected = connected;
     }
 }
